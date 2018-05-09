@@ -51,6 +51,9 @@
                                             <outletCollection property="gestureRecognizers" destination="u1c-hd-03y" appends="YES" id="n1Q-QT-FdQ"/>
                                         </connections>
                                     </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wre-WY-7g5" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="432.5" width="200" height="110"/>
+                                    </stackView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="wex-gJ-lyw" secondAttribute="trailing" id="LHx-WQ-ayl"/>
